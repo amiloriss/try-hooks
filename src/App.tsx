@@ -3,7 +3,6 @@ import { RootState } from "./store/rootReducer";
 
 const App = () => {
   const carsSelector = useSelector((store: RootState) => store.cars);
-  const dispatch = useDispatch();
 
   return (
     <div>
