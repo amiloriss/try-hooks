@@ -3,7 +3,6 @@ import { RootState } from "./store/rootReducer";
 
 const App = () => {
   const carsSelector = useSelector((store: RootState) => store.cars);
-  const dispatch = useDispatch();
 
   return (
     <div>
@@ -14,7 +13,6 @@ const App = () => {
             <li
               key={id}
               style={{
-                border: "1px solid black",
                 marginBottom: "5px",
                 padding: "10px",
               }}
