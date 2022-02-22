@@ -13,7 +13,6 @@ const App = () => {
             <li
               key={id}
               style={{
-                border: "1px solid black",
                 marginBottom: "5px",
                 padding: "10px",
               }}
